@@ -6,31 +6,31 @@ cask "jira-cli" do
     end
   end
 
-  version "3.4.1"
+  version "3.5.0"
 
   on_macos do
     on_intel do
-      sha256 "c447f239eed27591e65f555c798e97fc05b4f47017e1e0aeddb252012d19d4cb"
+      sha256 "f51980b264479b3dac45877823d80be57db98cc1f20333e9b955b468172998ce"
       url "https://github.com/rethab/jira-cli/releases/download/v#{version}/jira_#{version}_macOS_x86_64.tar.gz"
-      rename "jira_3.4.1_macOS_x86_64/bin/jira", "bin/jira"
+      rename "jira_3.5.0_macOS_x86_64/bin/jira", "bin/jira"
     end
     on_arm do
-      sha256 "b39a0c98bf42bd95c010d03b8b033c614d156ec03e8241dffcaa9ce9d3ba665e"
+      sha256 "afc58018f7dc7930a5319c2f6cbe194f2de301627e45b10d28b83a84021ddae3"
       url "https://github.com/rethab/jira-cli/releases/download/v#{version}/jira_#{version}_macOS_arm64.tar.gz"
-      rename "jira_3.4.1_macOS_arm64/bin/jira", "bin/jira"
+      rename "jira_3.5.0_macOS_arm64/bin/jira", "bin/jira"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "7ddff7758856b3abd31824223ac457d6df7dcdf3c2f273bef93fca3b58f610b4"
+      sha256 "7fc73c209e80e2426002c27c0dcfcb4388a2ca652d578399637f34e5e860f6e9"
       url "https://github.com/rethab/jira-cli/releases/download/v#{version}/jira_#{version}_linux_x86_64.tar.gz"
-      rename "jira_3.4.1_linux_x86_64/bin/jira", "bin/jira"
+      rename "jira_3.5.0_linux_x86_64/bin/jira", "bin/jira"
     end
     on_arm do
-      sha256 "f0443cb07004175ccda706677c978541326f386e0afd703da86c1430d90ea4fd"
+      sha256 "0dc91b722da6a815651e5bd8ea6bee450001a2bbc37f542330758b78abaf7da6"
       url "https://github.com/rethab/jira-cli/releases/download/v#{version}/jira_#{version}_linux_arm64.tar.gz"
-      rename "jira_3.4.1_linux_arm64/bin/jira", "bin/jira"
+      rename "jira_3.5.0_linux_arm64/bin/jira", "bin/jira"
     end
   end
 
